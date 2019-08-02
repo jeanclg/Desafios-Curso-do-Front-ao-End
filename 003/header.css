@@ -1,0 +1,38 @@
+body {
+    margin: 50% 0;
+}
+
+header {
+    background-color: #e24647;
+    color:#fff;
+    overflow: hidden;
+    margin: 0 115px;
+    padding: 55px 60px 95px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+nav {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 30px;
+}
+
+p {
+    background-color: #252c41;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    padding: 19px 60px;
+}
