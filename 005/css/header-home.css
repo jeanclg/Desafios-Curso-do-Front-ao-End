@@ -1,0 +1,26 @@
+.header-home {
+    color:#fff;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.navigation {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+.action {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 60px;
+}
+
+.last {
+    margin: 0;
+}
