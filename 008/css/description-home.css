@@ -1,0 +1,73 @@
+.description-home {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 553px;
+    transition: all 300ms linear;
+}
+
+.description-home > .title {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.description-home > .heart {
+    position: absolute;
+    top: 9px;
+    transform: translateX(calc(-100% - 47px));
+    cursor: pointer;
+}
+
+.description-home > .heart:hover {
+    transform: translateX(calc(-100% - 47px)) scale(1.5);
+}
+
+.description-home > .images {
+    margin-bottom: 25px;
+}
+
+.description-home > .images > .image {
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.description-home > .images > .image:hover {
+    transform: scale(1.25);
+}
+
+.description-home > .images + .item {
+    margin-left: 7px;
+}
+
+.description-home > .item {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.description-home > .item.-info {
+    width: 200px;
+    text-align: right;
+}
+
+.description-home > .item.-last {
+    margin-bottom: 73px;
+}
+
+.description-home .upper {
+    text-transform: uppercase;
+    float: left;
+}
+
+.description-home > .about {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.description-home > .about.-more {
+    margin: 0;
+}
+
+.description-home .action {
+    color: inherit;
+    text-decoration: none;
+}

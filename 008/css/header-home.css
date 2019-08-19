@@ -1,0 +1,58 @@
+.header-home {
+    color:#fff;
+    overflow: hidden;
+    padding-left: 60px;
+}
+
+.header-home > .title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-transform: uppercase;
+    margin-bottom: 138px;
+    cursor: pointer;
+}
+
+.header-home [type = "search"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 358px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: inherit;
+    padding: 8px;
+    margin-right: 65px;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+}
+
+.header-home > .navigation {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+.header-home .action {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 60px;
+}
+
+.header-home .action::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+}
+
+.header-home .action:hover::after {
+    width: 15%;
+}
+
+.header-home .action.-last {
+    margin: 0;
+}
