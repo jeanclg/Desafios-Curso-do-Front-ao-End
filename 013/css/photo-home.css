@@ -1,0 +1,35 @@
+.photo-home {
+    display: inline-block;
+    background-color: #fff;
+    height: 574px;
+    vertical-align: middle;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-right: 157px;
+}
+
+@media (max-width: 1322px) {
+    .photo-home {
+        margin-right: 140px;
+        text-align: center;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 1310px) {
+    .photo-home {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 560px) {
+    .photo-home {
+        height: auto;
+    }
+
+    .photo-home > .phone {
+        width: 100%;
+    }
+}

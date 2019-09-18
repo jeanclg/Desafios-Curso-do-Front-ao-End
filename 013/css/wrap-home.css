@@ -1,0 +1,26 @@
+.wrap-home {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrap-home > .buttons {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(calc(100% + 98px));
+}
+
+@media (max-width: 1310px) {
+    .wrap-home {
+        width: 100%;
+    }
+
+    .wrap-home > .buttons {
+        position: static;
+        transform: none;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
